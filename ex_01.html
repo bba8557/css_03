@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<style>
+			/* clearfix */
+			.clearfix{*zoom: 1;}
+			.clearfix:before, .clearfix:after {display: block; content:""; line-height: 0;}
+			.clearfix:after {clear: both;}
+			.div-g {
+					/* height: 200px; */
+					width: 200px;
+					border: 1px solid #000000;
+					background-color: #bbbbbb;
+					}
+			.div-b {
+					/* height: 100px; */
+					width: 50px;
+					border: 1px solid #000000;
+					background-color: #0000ff;
+					float: left;
+					}
+			.div-gr {
+					/* height: 100px; */
+					width: 50px;
+					border: 1px solid #000000;
+					background-color: #00ff00;
+					float: left;
+					}
+			.div-r {
+					/* height: 100px; */
+					width: 50px;
+					border: 1px solid #000000;
+					background-color: #ff0000;
+					}
+		</style>
+	</head>
+	<body>
+		<div class="div-g clearfix">
+			<div class="div-b">파랑</div>
+			<div class="div-gr">초록</div>
+			
+		</div>
+		<div class="div-r">빨강</div>
+	</body>
+</html>
